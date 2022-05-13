@@ -1,4 +1,3 @@
-/* FONT IS MANROPE FONTFAMILY */
 /*  the orange #FF6433 */
 /* the purple #661CE7 */
 /* not white #FAFAFA */
@@ -89,8 +88,7 @@ body{
     font-weight: 500;
     line-height: 28px;
     width: 48%;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin: 10px 0;
 }
 
 /* SECOND SECTION STARTS HERE*/
@@ -117,7 +115,7 @@ body{
 #two .top, #two .bottom{
     display: flex;
 }
-#two h6{
+#two .sec h6{
     font-size: 23px;
     font-weight: 500;    
     margin-top: 15px;
@@ -149,7 +147,6 @@ body{
     font-size: 22px;
     justify-content: center;
     align-items: center;
-    /* border: 2px solid yellow; */
 }
 #two a img{
     height: 20px;
@@ -202,9 +199,7 @@ body{
     background: #F2F2F2;    
 }
 #four .first, #four .second, #four .third, #four .fourth{
-    /* width: 200px; */
     padding: 0 50px;
-
 }
 #four h1{
     font-size: 28px;
@@ -240,9 +235,432 @@ body{
 }
 #five span{
     margin: 0 20px;
-    /* font-weight: 500; */
-    /* color: #1E1B1B; */
 }
 #five img{
     height: 100px;
 }
+/* END OF DESKTOP MODE */
+
+
+
+/* TABLET MODE */
+/* @media (max-width: 768px) and (min-width:470px) */
+@media (max-width: 768px) {
+    /* SECTION ONE */
+    /* #one{
+        flex-direction: column;
+    } */
+    #one .left h2{
+        font-size: 33px;
+        line-height: 42px;
+    }
+    #one .left p{
+        margin-top: 18px;
+    }
+    #one .right .side1{
+        margin-right: 28px;
+    }
+    #one .right .side1 h1{
+        height: 45px;
+        width: 45px;
+    }
+    #one .right .side1 img{
+        height: 80px;
+        margin: 20px 0;;
+    }
+    #one .right h5{
+        font-size: 20px;
+    }
+    #one .right p{
+        line-height: 25px;
+        width: 70%;
+    }
+    /* END OF SECTION ONE */
+
+    /* SECTION TWO */
+    #two h6{
+        font-size: 26px;
+    }
+    #two h1{
+        font-size: 35px;
+        width: 65%;
+        line-height: 45px;
+    }
+    #two .top, #two .bottom{
+        flex-direction: column;
+        align-items: center;
+    }
+    #two .box{
+        width: 300px;
+        height: 150px;
+    }
+    #two a{
+        margin-top: 20px;
+        margin-left: 400px;
+        margin-bottom: 10px;
+    }
+    /* END OF SECTION TWO */
+
+    /* SECTION THREE */
+    #three .box{
+        width: 320px;
+        height: 313px;
+        left: 200px;
+    }
+    #three .box h3{
+        font-size: 25px;
+        width: 60%;
+    }
+    /* END OF SECTION THREE */
+
+    /* SECTION FOUR */
+    #four .first, #four .second, #four .third, #four .fourth{
+        padding: 0 35px;
+    }
+    /* END OF SECTION FOUR */
+
+    /* SECTION FIVE */
+    #five{
+        min-height: 100vh;
+    }
+    #five h1{
+        font-size: 30px;
+        margin-bottom: 40px;
+    }
+    #five .top{
+        /* flex-direction: column; */
+        width: 700px;
+        display: block;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+    #five .bottom{
+        display: block;
+        width: 700px;
+        align-items: center;
+    }
+    #five span{
+        margin: 0 10px;
+    }
+    /* END OF SECTION FIVE */
+}
+/* END OF TABLET MODE */
+
+/*  673px */
+@media(max-width: 673px){
+    /* SECTION TWO */
+    #two h1{
+        font-size: 32px;
+        line-height: 42px;
+    }
+    #two .box{
+        width: 280px;
+        height: 130px;
+    }
+    #two a{
+        margin-left: 320px;
+        margin-bottom: 20px;
+        font-size: 20px;
+    }
+    #two img{
+        height: 33px;
+    }
+    #two h6{
+        font-size: 20px;
+    }
+    /* END OF SECTION TWO */
+}
+/* 673px */
+
+/* 610px */
+@media(max-width: 610px){
+    /* SECTION THREE */
+    #three .box{
+        left: 160px;
+    }
+    #three .box h3{
+        width: 65%;
+    }
+    /* END OF SECTION THREE */
+
+    /* SECTION FOUR */
+    #four .first, #four .second, #four .third, #four .fourth{
+        padding: 0 30px;
+    }
+    #four h1{
+        font-size: 25px;
+    }
+    #four h2{
+        font-size: 15px;
+    }
+    /* END OF SECTION FOUR */
+
+    /* SECTION FIVE */
+    #five h1{
+        font-size: 28px;
+        margin-bottom: 35px;
+    }
+    #five .top{
+        width: 600px;
+        margin-bottom: 8px;
+    }
+    #five .bottom{
+        width: 600px;
+    }
+    #five span{
+        margin: 0 3px;
+    }
+    /* END OF SECTION FIVE */
+}
+/* END OF 610px */
+
+/* 550PX */
+@media (max-width: 550px){
+    /* SECTION TWO */
+    #two h1{
+        font-size: 32px;
+        width: 75%;
+        line-height: 40px;
+    }
+    #two .box{
+        width: 250px;
+        height: 150px;
+    }
+    #two a{
+        margin-left: 180px;
+        margin-bottom: 15px;
+    }
+    /* END OF SECTION TWO */
+
+    /* SECTION THREE */
+    #three .box{
+        left: 100px;
+        width: 280px;
+    }
+    #three .box h3{
+        width: 75%;
+    }
+    /* END OF SECTION THREE */
+
+    /* SECTION FOUR */
+    #four .first, #four .second, #four .third, #four .fourth{
+        padding: 0 15px;
+    }
+    /* END OF SECTION FOUR */
+
+    /* SECTION FIVE */
+    #five h1{
+        font-size: 24px;
+        margin-bottom: 30px;
+    }
+    #five .top{
+        width: 550px;
+        margin-bottom: 5px;
+    }
+    #five .bottom{
+        width: 550px;
+    }
+    #five span{
+        margin: 0 2px;
+    }
+    #five img{
+        height: 60px;
+    }
+    /* END OF SECTION FIVE */
+}
+/* END OF 550PX */
+
+
+/* LARGE MOBILE PHONE */
+@media (max-width: 470px){
+    /* FIRST SECTION */
+    #one{
+        flex-direction: column;
+    }
+    #one .left{
+        width: 100%;
+    }
+    #one .left h2{
+        font-weight: 600;
+        font-size: 32px;
+        line-height: 47px;
+        width: 80%;
+        padding-top: 20px;
+    }
+    #one .left p{
+        width: 80%;
+        margin-top: 16px;
+        margin-bottom: 30px;
+    }
+    #one .right{
+        width: 100%;
+    }
+    #one .right .side1{
+        margin-right: 20px;
+        margin-left: 30px;
+    }
+    #one .right .side1 h1{
+        height: 40px;
+        width: 40px;
+    }
+    #one .right .side1 img{
+        height: 60px;
+        width: 2px;
+        margin: 15px 0;
+    }
+    #one .right h5{
+        font-size: 20px;
+        margin-top: 30px;
+    }
+    #one .right p{
+        width: 80%;
+        margin: 10px 0;
+    }
+    /* END OF FIRST SECTION */
+
+    /* SECOND SECTION */
+    #two h1{
+        font-size: 30px;
+        width: 85%;
+        line-height: 40px;
+    }
+    #two h6{
+        margin-top: 25px;
+    }
+    #two .box{
+        width: 200px;
+        height: 150px;
+    }
+    #two .sec h6{
+        font-size: 20px;
+        margin-top: 20px;
+    }
+    #two a{
+        margin-left: 100px;
+        font-size: 18px;
+    }
+    #two a img{
+        height: 20px;
+        width: 45px;
+    }
+    /* END OF SECOND SECTION */
+
+    /* THIRD SECTION */
+    #three .box{
+        width: 210px;
+        left: 100px;
+    }
+    #three .box h3{
+        font-size: 22px;
+        width: 80%;
+    } 
+    /* END OF THIRD SECTION */
+
+    /* FOURTH SECTION */
+    #four .first, #four .second, #four .third, #four .fourth{
+        padding: 0 8px;
+    }
+    #four h1{
+        font-size: 20px;
+        margin-bottom: 8px;
+    }
+    #four h2{
+        font-size: 13px;
+        line-height: 20px;
+    }
+    /* END OF FOURTH SECTION */
+
+    /* FIFTH SECTION */
+    #five h1{
+        font-size: 25px;
+        margin-bottom: 40px;
+    }
+    #five .top{
+        display: block;
+        margin-bottom: 8px;
+        width: 300px;
+    }
+    #five .bottom{
+        display: block;
+        width: 300px;
+    }
+    #five span{
+        margin: 0 5px;
+    }
+    #five img{
+        height: 70px;
+    }
+    /* END OF FIFTH SECTION */
+}
+/* END OF LARGE MOBILE PHONE */
+
+/* MOBILE PHONE */
+@media (max-width: 375px){
+    /* FIRST SECTION */
+    #one .left h2{
+        font-size: 28px;
+        line-height: 40px;
+    }
+    #one .left p{
+        width: 80%;
+        margin-top: 14px;
+        margin-bottom: 23px;
+    }
+    #one .right h5{
+        font-size: 18px;
+        margin-top: 27px;
+    }
+    #one .right p{
+        font-size: 15px;
+        margin: 6px 0;
+    }
+    /* END OF FIRST SECTION */
+
+    /* SECOND SECTION */
+    #two h1{
+        font-size: 27px;
+        width: 90%;
+        line-height: 33px;
+    }
+    #two .box{
+        width: 160px;
+        height: 120px;
+    }
+    #two .sec h6{
+        font-size: 17px;
+    }
+    #two a{
+        margin-left: 80px;
+        font-size: 16px;
+    }
+    #two a img{
+        height: 16px;
+        width: 41px;
+    }
+    /* END OF SECOND SECTION */
+
+    /* THIRD SECTION */
+    #three .box{
+        width: 180px;
+        left: 80px;
+    }
+    #three .box h3{
+        font-size: 20px;
+    } 
+    /* END OF THIRD SECTION */
+
+    /* FOURTH SECTION */
+    #four h1{
+        font-size: 18px;
+    }
+    /* END OF FOURTH SECTION */
+
+    /* FIFTH SECTION */
+    #five h1{
+        font-size: 22px;
+        margin-bottom: 35px;
+    }
+    /* END OF FIFTH SECTION */
+}
+/* END OF MOBILE PHONE */
